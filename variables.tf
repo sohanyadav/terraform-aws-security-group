@@ -18,14 +18,14 @@ variable "label_order" {
 
 variable "repository" {
   type        = string
-  default     = "https://github.com/opsstation/terraform-aws-security_group"
+  default     = "https://github.com/sohanyadav/terraform-aws-security_group"
   description = "Terraform current module repo"
 }
 
 variable "managedby" {
   type        = string
-  default     = "opsstation"
-  description = "ManagedBy, eg 'cypik'."
+  default     = "example"
+  description = "ManagedBy, eg 'sohanyadav'."
 }
 
 variable "vpc_id" {
